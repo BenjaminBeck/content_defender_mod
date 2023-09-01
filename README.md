@@ -14,4 +14,4 @@ mod.web_layout.BackendLayoutsDefault_for_content_defender_mod.allowed {
 }
 ```
 
-Clear chache
+Clear cache
