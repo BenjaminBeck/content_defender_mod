@@ -1,0 +1,45 @@
+{
+    "name": "bdm/content-defender-mod",
+    "description": "",
+    "type": "typo3-cms-extension",
+    "keywords": [
+    ],
+    "homepage": "",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "authors": [
+
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "typo3/cms-core": "^10.4 || ^11.5 || ^12.4",
+        "typo3/cms-backend": "^10.4 || ^11.5 || ^12.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "BDM\\ContentDefenderMod\\": "Classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BDM\\ContentDefenderMod\\Tests\\": "Tests/"
+        }
+    },
+    "replace": {
+    },
+    "config": {
+        "allow-plugins": {
+            "typo3/class-alias-loader": true,
+            "typo3/cms-composer-installers": true
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "content_defender_mod",
+            "cms-package-dir": "{$vendor-dir}/typo3/cms"
+        }
+    }
+}
